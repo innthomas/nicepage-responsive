@@ -4,8 +4,8 @@
 }
 /*====== ROW 0 ======*/
 .row-0 {
-    margin: 20px;
-    padding: 20px;
+    margin: 2em;
+    padding: 2em;
     padding-left: 4em;
     padding-right: 4em;
     display: flex;
@@ -24,10 +24,15 @@
     background-repeat: no-repeat;
     background-position: center;
     background-color: #f5f5f5;  
+    
 }
 
 #house-repair,#paint-bucket-brush{
    padding: 1.5em;
+}
+.paint-bucket-brush{
+/* TODO */
+
 }
 #house-repair{
     font-weight: 50;
@@ -59,6 +64,7 @@
 .paint-bucket-brush{
     margin:0.5em;
     padding:0.5em;
+    padding-right: 4em;
 }
 /*======  ROW 2 ======*/
 .row-2{
@@ -81,26 +87,68 @@
     padding: 1.8em;
     display: flex;
 flex-direction: row;
-justify-content: space-between;
+justify-content:space-around ;
 align-items: flex-start;
 
 }
+#row-3-child p{
+   padding: 2em;
+}
+.need-help h2{
+    color: red;
+    font-size: 900;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
 
 /*======  ROW 4 ======*/
+.row-4 img{
+    height: 40em;
+    width: auto;
+}
 .row-4{
     background-color: rgb(196, 191, 197);
     display: flex;
+    justify-content: center;
+}
+.row-4 #bq-hr{
+    height: 5px;
+    width: 50%;
+    width: 100%;
+    margin-top:25px ;
+    margin-bottom:10px ;
+    padding: 1px;
+    color: red;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
 }
 
 .row-4 #best-quality{
+    margin-top: 10em;
     text-align: center;
-   padding:20em;
+   padding:2em;
+}
+.row-4 #best-quality br{
+    display: none;
+}
+#bq-h1{
+    color: #104E92;
+    font-size: 900;
 }
  #bq-btn{
      background-color: red;
         color: white
  }
  /*======  ROW 5 ======*/
+ .row-5{
+     margin: 2em;
+ }
+ .row-5 h1{
+     margin: 1.5em;
+     font-size: 900;
+
+ }
  .our-services-list{
      display: flex;
         flex-direction: row;
@@ -117,8 +165,11 @@ align-items: flex-start;
         font-size: 1.0em;
         font-weight: 400;
         color: #000;
-
  }
+ .our-services-list p{
+     text-align:start;
+ }
+  
  .row-5-img{
      background-color: red;
      border-radius:50%;
@@ -204,7 +255,12 @@ align-items: flex-start;
         background-color: red;
         color: #fff;
  }
-
+.row-7 p{
+    font-size: 900;
+    font-weight: 400;
+    letter-spacing: 5px;
+    line-height: 1.8;
+}
  /*======= media queries ======*/
 
  
