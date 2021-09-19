@@ -1,98 +1,105 @@
 @media screen and (max-width: 600px) {
-  
-  
-/* ===== row 0 */
-    /* .row-0 {
+
+
+   /* ===== row 0 */
+   /* .row-0 {
        background-color: red;
     } */
-/* ====row 1 */
-    .row-1{
+   /* ====row 1 */
+   .row-1 {
       padding: 1.8em;
       color: #fff;
-      background-image: 
-      url("assets/hero-bg.jpg");
+      background-image:
+         url("assets/hero-bg.jpg");
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center;
-      background-color: #f5f5f5;  
-      
-  }
-  
-  #house-repair{
-     padding-top: 8.5em;
-  }
- 
-  
-  }
-  #house-repair{
-      font-weight: 50;
-      font-size: 0.9em;
-  }
-  
-  #services{
-      font-weight: 800;
-      font-size: 3.5em;
-  }
-  
-  #hr{
-      height: 5px;
-      width: 50%;
-      width: 50%;
-      margin-top:25px ;
-      margin-bottom:10px ;
-      padding: 1px;
-      color: #fff;
-      background-color: #fff;
-      border-radius: 5px;
-      border: none;
-  }
-  
-  #paint-bucket-brush{
-      display:none;
-  }
-  
-  
-  
+      background-color: #f5f5f5;
+
+   }
+
+   #house-repair {
+      padding-top: 8.5em;
+   }
+
+
+}
+
+#house-repair {
+   font-weight: 50;
+   font-size: 0.9em;
+}
+
+#services {
+   font-weight: 800;
+   font-size: 3.5em;
+}
+
+#hr {
+   height: 5px;
+   width: 50%;
+   width: 50%;
+   margin-top: 25px;
+   margin-bottom: 10px;
+   padding: 1px;
+   color: #fff;
+   background-color: #fff;
+   border-radius: 5px;
+   border: none;
+}
+
+#paint-bucket-brush {
+   display: none;
+}
+
+
+
 /*======  ROW 3  ======*/
-.row-3{
+.row-3 {
    margin: 3.9em;
    padding: 1.8em;
    display: block;
 }
-.row-3 #row-3-child img{
+
+.row-3 #row-3-child img {
    width: 100%;
 }
-#row-3-child p{
-  padding: 2em;
+
+#row-3-child p {
+   padding: 2em;
 }
-.need-help h2{
+
+.need-help h2 {
    color: red;
    font-size: 900;
    padding-top: 2em;
    padding-bottom: 2em;
 }
-#need-help img{
-width: 100%;
+
+#need-help img {
+   width: 100%;
 }
 
 /*======  ROW 4 ======*/
-.row-4 img{
-   height:auto;
+.row-4 img {
+   height: auto;
    width: 100%;
    margin: 0px;
    padding: 0px;
 }
-.row-4{
+
+.row-4 {
    background-color: rgb(196, 191, 197);
    display: block;
    /* justify-content: center; */
 }
-.row-4 #bq-hr{
+
+.row-4 #bq-hr {
    height: 5px;
    width: 50%;
    width: 100%;
-   margin-top:25px ;
-   margin-bottom:10px ;
+   margin-top: 25px;
+   margin-bottom: 10px;
    padding: 1px;
    color: red;
    background-color: red;
@@ -100,70 +107,76 @@ width: 100%;
    border: none;
 }
 
-.row-4 #best-quality{
+.row-4 #best-quality {
    margin-top: 10em;
    text-align: center;
-  padding:2em;
+   padding: 2em;
 }
-#bq-h1{
+
+#bq-h1 {
    color: #104E92;
    font-size: 900;
 }
-.row-4 #best-quality br{
-   display:block;
+
+.row-4 #best-quality br {
+   display: block;
 }
-#bq-btn{
-    background-color: red;
-       color: white;
-       margin: 2em;
-       
+
+#bq-btn {
+   background-color: red;
+   color: white;
+   margin: 2em;
+
 }
 
 /*======  ROW 5 ======*/
-.row-5{
+.row-5 {
    margin: 2em;
 }
-.row-5 h1{
+
+.row-5 h1 {
    margin: 1.5em;
    font-size: 900;
 
 }
 
-.row-5{
+.row-5 {
    display: flex;
    flex-direction: column;
 
 
 }
-.our-services-list{
+
+.our-services-list {
    display: flex;
    flex-direction: column;
-      margin: 0.5em;
-      padding: 0.5em;
-      border-radius: 5px;
-      border: none;
-      background-color: #fff;
-      width: 100%;
-      height: 100%;
-      text-align: center;
-      font-size: 1.0em;
-      font-weight: 400;
-      color: #000;
-}
-.our-services-list p{
-   text-align:start;
+   margin: 0.5em;
+   padding: 0.5em;
+   border-radius: 5px;
+   border: none;
+   background-color: #fff;
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   font-size: 1.0em;
+   font-weight: 400;
+   color: #000;
 }
 
-.row-5-img{
+.our-services-list p {
+   text-align: start;
+}
+
+.row-5-img {
    background-color: red;
-   border-radius:50%;
+   border-radius: 50%;
    padding: 0.5em;
    color: #fff;
 }
 
-  /*======  ROW 6 ======*/
-  .row-6{
-   background-color: rgb(17 ,78 ,146 );
+/*======  ROW 6 ======*/
+.row-6 {
+   background-color: rgb(17, 78, 146);
    display: flex;
    flex-direction: column;
    justify-content: space-around;
@@ -172,7 +185,7 @@ width: 100%;
    padding: 0.5em;
    border-radius: 5px;
    border: none;
-   
+
    width: 100%;
    height: 100%;
    text-align: center;
@@ -181,40 +194,43 @@ width: 100%;
    color: #fff;
 
 }
-.row-6 #about-plum{
+
+.row-6 #about-plum {
    text-align: center;
-  margin-top: 2em;
-  margin-left: 1.5em;
+   margin-top: 2em;
+   margin-left: 1.5em;
    margin-right: 0.5em;
    padding: 0.5em;
    color: #fff;
 }
-.row-6 #plumbing-services{
-   
+
+.row-6 #plumbing-services {
+
    text-align: center;
    font-size: 4.5em;
    padding: 0.5em
-
-}
-.row-6 #plumbing-services span{
-   
-  font-weight: 900;
-
 }
 
-#about-plum h1{
-    font-size:100;
+.row-6 #plumbing-services span {
+
+   font-weight: 900;
+
 }
-#plum-img{
-   display:flex;
+
+#about-plum h1 {
+   font-size: 100;
+}
+
+#plum-img {
+   display: flex;
    flex-direction: column;
    margin: 0px;
    padding: 0px;
-  
-}
-.row-6-img{
-   height:15em;
-   width:15em;
-   margin:0.5em;
+
 }
 
+.row-6-img {
+   height: 15em;
+   width: 15em;
+   margin: 0.5em;
+}

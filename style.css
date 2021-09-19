@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 /*====== ROW 0 ======*/
 .row-0 {
     margin: 2em;
@@ -15,40 +16,41 @@
 }
 
 /*======  ROW 1  ======*/
-.row-1{
+.row-1 {
     padding: 1.8em;
     color: #fff;
-    background-image: 
-    url("assets/hero-bg.jpg");
+    background-image:
+        url("assets/hero-bg.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #f5f5f5;  
-    
+    background-color: #f5f5f5;
+
 }
 
-#house-repair,#paint-bucket-brush{
-   padding: 1.5em;
+#house-repair,
+#paint-bucket-brush {
+    padding: 1.5em;
 }
 
 
 
-#house-repair{
+#house-repair {
     font-weight: 50;
     font-size: 1.9em;
 }
 
-#services{
+#services {
     font-weight: 800;
     font-size: 3.5em;
 }
 
-#hr{
+#hr {
     height: 5px;
     width: 50%;
     width: 50%;
-    margin-top:25px ;
-    margin-bottom:10px ;
+    margin-top: 25px;
+    margin-bottom: 10px;
     padding: 1px;
     color: #fff;
     background-color: #fff;
@@ -56,44 +58,49 @@
     border: none;
 }
 
-#paint-bucket-brush{
-    display:flex;
+#paint-bucket-brush {
+    display: flex;
 }
 
-.paint-bucket-brush{
-    margin:0.5em;
-    padding:0.5em;
+.paint-bucket-brush {
+    margin: 0.5em;
+    padding: 0.5em;
     padding-right: 4em;
 }
+
 /*======  ROW 2 ======*/
-.row-2{
+.row-2 {
     margin: 3.9em;
     padding: 1.8em;
-    text-align:center;
-}
-.row-2-child{
-    padding: 1.2em;
-    text-align:center;
+    text-align: center;
 }
 
-#book-now{
-    background-color:red;
-    color:white;
+.row-2-child {
+    padding: 1.2em;
+    text-align: center;
 }
+
+#book-now {
+    background-color: red;
+    color: white;
+}
+
 /*======  ROW 3  ======*/
-.row-3{
+.row-3 {
     margin: 3.9em;
     padding: 1.8em;
     display: flex;
-flex-direction: row;
-justify-content:space-around ;
-align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
 
 }
-#row-3-child p{
-   padding: 2em;
+
+#row-3-child p {
+    padding: 2em;
 }
-.need-help h2{
+
+.need-help h2 {
     color: red;
     font-size: 900;
     padding-top: 2em;
@@ -101,21 +108,23 @@ align-items: flex-start;
 }
 
 /*======  ROW 4 ======*/
-.row-4 img{
+.row-4 img {
     height: 40em;
     width: auto;
 }
-.row-4{
+
+.row-4 {
     background-color: rgb(196, 191, 197);
     display: flex;
     justify-content: center;
 }
-.row-4 #bq-hr{
+
+.row-4 #bq-hr {
     height: 5px;
     width: 50%;
     width: 100%;
-    margin-top:25px ;
-    margin-bottom:10px ;
+    margin-top: 25px;
+    margin-bottom: 10px;
     padding: 1px;
     color: red;
     background-color: red;
@@ -123,143 +132,160 @@ align-items: flex-start;
     border: none;
 }
 
-.row-4 #best-quality{
+.row-4 #best-quality {
     margin-top: 10em;
     text-align: center;
-   padding:2em;
+    padding: 2em;
 }
-.row-4 #best-quality br{
+
+.row-4 #best-quality br {
     display: none;
 }
-#bq-h1{
+
+#bq-h1 {
     color: #104E92;
     font-size: 900;
 }
- #bq-btn{
-     background-color: red;
-        color: white
- }
- /*======  ROW 5 ======*/
- .row-5{
-     margin: 2em;
- }
- .row-5 h1{
-     margin: 1.5em;
-     font-size: 900;
 
- }
- .our-services-list{
-     display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
-        margin: 0.5em;
-        padding: 0.5em;
-        border-radius: 5px;
-        border: none;
-        background-color: #fff;
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        font-size: 1.0em;
-        font-weight: 400;
-        color: #000;
- }
- .our-services-list p{
-     text-align:start;
- }
-  
- .row-5-img{
-     background-color: red;
-     border-radius:50%;
-     padding: 0.5em;
-     color: #fff;
- }
+#bq-btn {
+    background-color: red;
+    color: white
+}
 
- /*======  ROW 6 ======*/
-    .row-6{
-        background-color: rgb(17 ,78 ,146 );
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: flex-start;
-        margin: 0.5em;
-        padding: 0.5em;
-        border-radius: 5px;
-        border: none;
-        
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        font-size: 1.0em;
-        font-weight: 400;
-        color: #fff;
+/*======  ROW 5 ======*/
+.row-5 {
+    margin: 2em;
+}
 
-    }
-    .row-6 #about-plum{
-        text-align: center;
-       margin-top: 2em;
-       margin-left: 1.5em;
-        margin-right: 0.5em;
-        padding: 0.5em;
-        color: #fff;
-    }
-    .row-6 #plumbing-services{
-        
-        text-align: center;
-        font-size: 4.5em;
-        padding: 0.5em
+.row-5 h1 {
+    margin: 1.5em;
+    font-size: 900;
 
-    }
-    .row-6 #plumbing-services span{
-        
-       font-weight: 900;
+}
 
-    }
+.our-services-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.0em;
+    font-weight: 400;
+    color: #000;
+}
 
-    #about-plum h1{
-         font-size:100;
-    }
-    #plum-img{
-        display:grid;
-        
-        grid-template-columns:repeat(2, 1fr);
-       
-        gap: 0.5em;
-        margin: 0.5em;
-        padding: 0.5em;
-        
-    }
-    .row-6-img{
-        height:15em;
-        width:15em;
-        margin:0.5em;
-    }
+.our-services-list p {
+    text-align: start;
+}
+
+.row-5-img {
+    background-color: red;
+    border-radius: 50%;
+    padding: 0.5em;
+    color: #fff;
+}
+
+/*======  ROW 6 ======*/
+.row-6 {
+    background-color: rgb(17, 78, 146);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.0em;
+    font-weight: 400;
+    color: #fff;
+
+}
+
+.row-6 #about-plum {
+    text-align: center;
+    margin-top: 2em;
+    margin-left: 1.5em;
+    margin-right: 0.5em;
+    padding: 0.5em;
+    color: #fff;
+}
+
+.row-6 #plumbing-services {
+
+    text-align: center;
+    font-size: 4.5em;
+    padding: 0.5em
+}
+
+.row-6 #plumbing-services span {
+
+    font-weight: 900;
+
+}
+
+#about-plum h1 {
+    font-size: 100;
+}
+
+#plum-img {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 0.5em;
+    margin: 0.5em;
+    padding: 0.5em;
+
+}
+
+.row-6-img {
+    height: 15em;
+    width: 15em;
+    margin: 0.5em;
+}
 
 
 /*======  ROW 7 ======*/
-.row-7{
+.row-7 {
     text-align: center;
     padding: 3.8em;
 }
-.row-7 h1,h3,p, button{
+
+.row-7 h1,
+h3,
+p,
+button {
     padding: 0.5em;
 }
-.row-7 button{
-   margin: 0.2em;
-   margin-top: 2em;
+
+.row-7 button {
+    margin: 0.2em;
+    margin-top: 2em;
 
 }
- .row-7 #row-7-btn-a{
-        background-color: red;
-        color: #fff;
- }
-.row-7 p{
+
+.row-7 #row-7-btn-a {
+    background-color: red;
+    color: #fff;
+}
+
+.row-7 p {
     font-size: 900;
     font-weight: 400;
     letter-spacing: 5px;
     line-height: 1.8;
 }
- /*======= media queries ======*/
 
- 
+/*======= media queries ======*/
